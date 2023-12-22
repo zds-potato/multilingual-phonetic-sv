@@ -47,8 +47,8 @@ lm_second=6
 lm_batch_size=128
 lm_max_epochs=5
 lm_learning_rate=0.00001
-lm_avg_model=$lm_save_dir/avg_model_${num_avg}.ckpt
 lm_num_avg=1
+lm_avg_model=$lm_save_dir/avg_model_${lm_num_avg}.ckpt
 
 if [ ${stage} -le 1 ] && [ ${stop_stage} -ge 1 ]; then
   # prepare data for model training
