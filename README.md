@@ -14,7 +14,7 @@ We used a language identification model (https://huggingface.co/TalTechNLP/voxli
 
 
 ## Installation
-1.Create a Python 3.9 environment.
+1.Create a Python 3.9 environment
 ```bash
 conda create -n sre python=3.9
 ```
